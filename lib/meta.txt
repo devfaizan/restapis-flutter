@@ -1,0 +1,19 @@
+error handling should be good
+    for get 
+        if no data then shimmer for a 5 sec then display message
+    no server connection
+        message after 5 sec    
+
+
+for apis general:
+    use models please
+    use future in flutter with async
+    use future bulider for ui       
+
+what next:
+  edit and delete
+  
+  make function for delete in laravel and flutter
+
+  edit should be on alertdialog
+  form will appear with info loaded into and you can edit 
