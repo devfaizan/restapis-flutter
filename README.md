@@ -4,7 +4,7 @@ An android that uses Laravel as backend. This app provides simple create, update
 
 ## Deep Dive
 
-Firstly app intiailize by displaying splash screen and check if connection is made to the server, if not then it displays an error screen, else app will redirect you to home screen from where you can add new users thorugh a validated form.
+Firstly app intiailize by displaying splash screen and checks if connection is made to the server, if not then it displays an error screen, else app will redirect you to home screen from where you can add new users through a validated form.
 
 Next up we have user screen where app displays list of added users. In listtile we have username, useremail & icons from where you can edit username & delete button that deletes user.
 
