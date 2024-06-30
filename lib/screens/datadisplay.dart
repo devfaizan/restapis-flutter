@@ -136,7 +136,7 @@ class _UserDataState extends State<UserData> {
                               builder: (BuildContext context) {
                                 return AlertDialog(
                                   scrollable: true,
-                                  title: const Text('Login'),
+                                  title: const Text('Edit User Info'),
                                   content: Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: miniForm(),
