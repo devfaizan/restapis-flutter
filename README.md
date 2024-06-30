@@ -1,16 +1,14 @@
-# withlaravel
+# restapis-flutter
 
-A new Flutter project.
+An android that uses Laravel as backend. This app provides simple create, update & delete functions, where you can add new users, edit their name & delete them forever. This app doesn't provide any authentication mechanism. 
 
-## Getting Started
+## Deep Dive
 
-This project is a starting point for a Flutter application.
+Firstly app intiailize by displaying splash screen and check if connection is made to the server, if not then it displays an error screen, else app will redirect you to home screen from where you can add new users thorugh a validated form.
 
-A few resources to get you started if this is your first Flutter project:
+Next up we have user screen where app displays list of added users. In listtile we have username, useremail & icons from where you can edit username & delete button that deletes user.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+At bottom for every screen there is a bottomnavbar through which you can navigate to different pages. State of this bottomnavbar is managed through Provider.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User data travels within app using models & data is requested from server through http requests.
+
